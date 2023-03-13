@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Crimson Text', serif;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    font-size: 18px;
+    background-color: #f5f6f7;
+    
+}
+
+h1 {
+    max-width: 940px;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px 0;
+}
+
+.conTest {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedorPrincipal {
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedorPrincipalTestimonio{
+    width: 900px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.9);
+}
+
+.imgUsuario{
+    height: 100%;
+    width: 30%;
+}
+
+.contenedorTestimonio{
+    text-align: center;
+    padding: 40px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.nombrePaisTestimonio{
+    font-size: 1.3rem;
+}
+
+.cargoEmpresaTestimonio{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.textoTestimonio{
+    font-size: 1.1rem;
+    text-align: justify;
+}

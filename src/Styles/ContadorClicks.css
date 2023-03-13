@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: 'Crimson Text', serif;
+}
+
+.contenedorPrincipalContador {
+  height: 420px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contador {
+  min-width: 250px;
+  height: 250px;
+  font-size: 160px;
+  padding: 25px;
+  color: rgb(165, 142, 186);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(165, 142, 186);
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
